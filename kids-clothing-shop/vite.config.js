@@ -7,6 +7,7 @@ import path from 'node:path'  // Import path module from Node.js
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
